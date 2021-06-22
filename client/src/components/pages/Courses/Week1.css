@@ -1,0 +1,44 @@
+.sc {
+    float: right;
+    padding: 0.4rem 0px 0.4rem 0.4rem;
+    display: flex;
+    height: 0px;
+    width: 0px;
+    border: white;
+    background-color: white;
+}
+
+.sc:hover {
+    float: right;
+    padding: 0.4rem 0px 0.4rem 0.4rem;
+    display: flex;
+    height: 0px;
+    width: 0px;
+    border: white;
+    background-color: white;
+}
+
+.iamvsjv {
+    height: 20px;
+    width: 20px;
+}
+
+.ocpafeoa {
+    height: 20px;
+    width: 20px;
+}
+
+.divru {
+    margin-bottom: 10px;
+}
+
+.opaocce {
+    margin-bottom: 10px;
+    opacity: 0.5;
+
+}
+
+.linkul{
+    color: black;
+    text-decoration: none;
+}

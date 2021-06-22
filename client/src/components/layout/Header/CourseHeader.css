@@ -1,0 +1,18 @@
+.div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orfer {
+    border: 1px solid black;
+}
+
+.imaf {
+    width: 45px;
+    height: 45px;
+}

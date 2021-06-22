@@ -1,0 +1,75 @@
+.box {
+    background: #fff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 9%);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 64px auto 0;
+    max-width: 380px;
+    padding: 24px 32px 32px;
+}
+
+.logs {
+    margin-bottom: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.sijsi {
+    height: 70px;
+    width: 70px;
+}
+
+.forftiel {
+    color: #2d354c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+}
+
+.label {
+    color: #86939E;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 16px 0 8px;
+    text-align: left;
+    width: 300px;
+}
+
+.input {
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    padding: 8px 16px;
+    width: 300px;
+}
+
+.submiy {
+    border: none;
+    background: #2d354c;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 24px;
+    padding: 13px 0;
+    text-align: center;
+    width: 300px;
+}
+
+.submiy:hover {
+    background: #2d354c;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 24px;
+    padding: 13px 0;
+    text-align: center;
+    width: 300px;
+}

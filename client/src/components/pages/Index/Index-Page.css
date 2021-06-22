@@ -1,0 +1,7 @@
+.body {
+    background: url('./../Images/background.png');
+    background-size: cover;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+}

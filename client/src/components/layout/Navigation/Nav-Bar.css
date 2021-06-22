@@ -1,0 +1,14 @@
+.brand {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+}
