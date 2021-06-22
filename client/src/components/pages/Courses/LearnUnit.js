@@ -31,32 +31,17 @@ class LearnUnit extends Component {
             .then(response => this.setState({ learnUnit: response.data }))
             .catch(err => console.log('Error!', err))
     }
-    // addLearnUnit() {
-    //     const { id } = this.props.match.params
-    //     // this.state.learnUnit.completed = !this.state.learnUnit.completed
-    //     // this.learnUnitServices
-    //     //     .editLearnUnit(id, this.state.learnUnit)
-    //     //     .then(() => this.loadOneLearnUnit())
-    //     //     .catch(err => console.log(err))
-    //     this.props.loggedUser.completedUnits.push(id)
-    // }
-    // removeLearnUnit() {
-    //     const { id } = this.props.match.params
-    //     this.props.loggedUser.completedUnits.pull(id)
-    // }
     completedLearnUnit() {
         const { id } = this.props.match.params
-        if (!this.props.loggedUser.completedUnits.includes(id)) {
-            this.learnUnitServices
-                .addLearnUnit({ id }, this.props.loggedUser.completedUnits.push(id))
-                .then(() => this.loadOneLearnUnit())
-                .catch(err => console.log(err))
-        }
+        this.learnUnitServices
+            .addLearnUnit({ id }, this.props.loggedUser.completedUnits.push(id))
+            .then(() => this.loadOneLearnUnit())
+            .catch(err => console.log(err))
     }
     uncompleted() {
         const { id } = this.props.match.params
         this.learnUnitServices
-            .removeLearnUnit({ id }, this.props.loggedUser.completedUnits.splice(id))
+            .removeLearnUnit(this.props.loggedUser.completedUnits.splice(id))
             .then(() => this.loadOneLearnUnit())
             .catch(err => console.log(err))
 

@@ -25,13 +25,6 @@ class Week3 extends Component {
             .then(response => this.setState({ learnUnits: response.data }))
             .catch(err => console.log('Error!', err))
     }
-    // editOneLearnUnit() {
-    //     const refreshLearnUnits = this.loadLearnUnits()
-    //     this.learnUnitServices
-    //         .editLearnUnit(this.state.learnUnits._id, { completed: true })
-    //         .then(() => refreshLearnUnits())
-    //         .catch(err => console.log(err))
-    // }
     render() {
         return (
             <>
